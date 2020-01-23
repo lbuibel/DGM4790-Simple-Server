@@ -3,7 +3,7 @@ const path = require('path')
 const express = require('express')
 const app = express()
 
-const home = require('./routes/index')
+const home = require('./routes/home')
 const api = require('./routes/api')
 
 // hooking up stylesheet

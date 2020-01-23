@@ -5,7 +5,7 @@ const router = express.Router()
 router.use('/api',(req, res, next) => {
     res.json(
         {
-            Name: 'Logan Uibel',
+            Name: 'Logan',
             Assignment: 1,
             Course: 'DGM-4790'
         }
